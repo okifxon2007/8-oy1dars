@@ -7,7 +7,7 @@ function Footer() {
     <div className="mx-auto max-w-[1280px] py-12 rounded-2xl ">
       <div
         className="flex flex-col min-[830px]:flex-row items-center justify-between gap-6 pb-10 border-b-2 border-gray-200">
-        <a href="https://pagedone.io/" className="py-1.5">
+        <a  className="py-1.5">
           <svg xmlns="http://www.w3.org/2000/svg" width="166" height="33" viewBox="0 0 166 33" fill="none">
             <path
               d="M47.7101 24.7231V7H55.0833C55.2568 7 55.4799 7.00821 55.7525 7.02462C56.0251 7.03282 56.2771 7.05744 56.5084 7.09846C57.541 7.25436 58.392 7.59487 59.0611 8.12C59.7386 8.64513 60.2384 9.30974 60.5606 10.1138C60.891 10.9097 61.0562 11.7959 61.0562 12.7723C61.0562 13.7405 60.891 14.6267 60.5606 15.4308C60.2301 16.2267 59.7262 16.8872 59.0487 17.4123C58.3796 17.9374 57.5328 18.2779 56.5084 18.4338C56.2771 18.4667 56.021 18.4913 55.7401 18.5077C55.4675 18.5241 55.2485 18.5323 55.0833 18.5323H50.6965V24.7231H47.7101ZM50.6965 15.7631H54.9594C55.1246 15.7631 55.3105 15.7549 55.517 15.7385C55.7236 15.7221 55.9136 15.6892 56.0871 15.64C56.5827 15.5169 56.971 15.2995 57.2519 14.9877C57.541 14.6759 57.7435 14.3231 57.8591 13.9292C57.983 13.5354 58.045 13.1497 58.045 12.7723C58.045 12.3949 57.983 12.0092 57.8591 11.6154C57.7435 11.2133 57.541 10.8564 57.2519 10.5446C56.971 10.2328 56.5827 10.0154 56.0871 9.89231C55.9136 9.84308 55.7236 9.81436 55.517 9.80615C55.3105 9.78974 55.1246 9.78154 54.9594 9.78154H50.6965V15.7631Z"
@@ -54,37 +54,37 @@ function Footer() {
           </svg>
         </a>
         <ul className="flex flex-col sm:flex-row items-center gap-5 sm:gap-12">
-          <li><a href="jaascript:;"
+          <li><a 
               className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Pagedone</a>
           </li>
-          <li><a href="jaascript:;"
+          <li><a 
               className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">products</a>
           </li>
-          <li><a href="jaascript:;"
+          <li><a 
               className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Resources</a>
           </li>
-          <li><a href="jaascript:;"
+          <li><a 
               className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Blogs</a>
           </li>
-          <li><a href="jaascript:;"
+          <li><a 
               className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Support</a>
           </li>
         </ul>
       </div>
       <div className="pt-7 flex flex-col min-[520px]:flex-row items-center justify-between gap-6">
         <ul className="flex items-center gap-9">
-          <li><a href="jaascript:;"
+          <li><a 
               className="text-sm font-normal text-gray-500 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Terms</a>
           </li>
-          <li><a href="jaascript:;"
+          <li><a 
               className="text-sm font-normal text-gray-500 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">privacy</a>
           </li>
-          <li><a href="jaascript:;"
+          <li><a 
               className="text-sm font-normal text-gray-500 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Cookies</a>
           </li>
         </ul>
         <div className="flex items-center gap-4">
-          <a href="javascript:;"
+          <a 
             className="border border-gray-300 p-2 rounded-full aspect-square text-gray-700 transition-all duration-500 hover:text-indigo-600 hover:border-indigo-600 focus-within:outline-0 focus-within:text-indigo-600 focus-within:border-indigo-600">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path
@@ -92,7 +92,7 @@ function Footer() {
                 fill="currentColor" />
             </svg>
           </a>
-          <a href="javascript:;"
+          <a 
             className="border border-gray-300 p-2 rounded-full aspect-square text-gray-700 transition-all duration-500 hover:text-indigo-600 hover:border-indigo-600 focus-within:outline-0 focus-within:text-indigo-600 focus-within:border-indigo-600">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path
@@ -100,7 +100,7 @@ function Footer() {
                 fill="currentColor" />
             </svg>
           </a>
-          <a href="javascript:;"
+          <a 
             className="border border-gray-300 p-2 rounded-full aspect-square text-gray-700 transition-all duration-500 hover:text-indigo-600 hover:border-indigo-600 focus-within:outline-0 focus-within:text-indigo-600 focus-within:border-indigo-600">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path
@@ -108,7 +108,7 @@ function Footer() {
                 fill="currentColor" />
             </svg>
           </a>
-          <a href="javascript:;"
+          <a 
             className="border border-gray-300 p-2 rounded-full aspect-square text-gray-700 transition-all duration-500 hover:text-indigo-600 hover:border-indigo-600 focus-within:outline-0 focus-within:text-indigo-600 focus-within:border-indigo-600">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path fillRule="evenodd" clipRule="evenodd"

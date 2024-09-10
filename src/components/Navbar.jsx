@@ -6,7 +6,6 @@ function Navbar() {
     <div>
         <div className="navbar text-[#f29824] max-w-[1280px] mx-auto">
   <div className="flex-1">
-
     <NavLink to="/" className="btn btn-ghost text-xl">AniLaver</NavLink>
   </div>
   <div className="flex justify-end border-b-[1px] w-[30%] pb-2">
