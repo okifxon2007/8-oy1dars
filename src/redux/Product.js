@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = [];
 
 const product = createSlice({
-    name: "card",
+    name: "Product",
     initialState,
     reducers: {
         CardQoshish: (state, action) => {
@@ -14,7 +14,7 @@ const product = createSlice({
         
     }
 });
-
+console.log(initialState);
 export const { CardQoshish,CardAyrish } = product.actions;
 
 export default product.reducer;

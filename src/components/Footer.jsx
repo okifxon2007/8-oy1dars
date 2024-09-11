@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-       <section className=" bg-neutral-100">
+       <section className=" bg-[#f299241a] text-white">
     <div className="mx-auto max-w-[1280px] py-12 rounded-2xl ">
       <div
         className="flex flex-col min-[830px]:flex-row items-center justify-between gap-6 pb-10 border-b-2 border-gray-200">
@@ -55,19 +55,19 @@ function Footer() {
         </a>
         <ul className="flex flex-col sm:flex-row items-center gap-5 sm:gap-12">
           <li><a 
-              className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Pagedone</a>
+              className="text-lg font-normal  transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Pagedone</a>
           </li>
           <li><a 
-              className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">products</a>
+              className="text-lg font-normal  transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">products</a>
           </li>
           <li><a 
-              className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Resources</a>
+              className="text-lg font-normal  transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Resources</a>
           </li>
           <li><a 
-              className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Blogs</a>
+              className="text-lg font-normal  transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Blogs</a>
           </li>
           <li><a 
-              className="text-lg font-normal text-gray-800 transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Support</a>
+              className="text-lg font-normal  transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Support</a>
           </li>
         </ul>
       </div>

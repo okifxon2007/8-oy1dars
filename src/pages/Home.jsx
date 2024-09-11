@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { CardQoshish } from '../redux/Product';
 
 function Home() {
     const [seconds, setSeconds] = useState(0);
     const [isActive, setIsActive] = useState(true);
     const cardItems = useSelector((state) => state.counter);
-
+    const cardItems2 = useSelector((state) => state.product);
+    console.log(cardItems2);
+    let dispach=useDispatch()
     useEffect(() => {
         let interval = null;
         if (isActive) {
@@ -27,7 +30,9 @@ function Home() {
         {name:"Naruto", img:"https://www.amazingame.ru/upload/iblock/d14/fe5mc9szblbr87ik7ome8w61det3jbk1/202108120855033.jpg"},
         {name:"Naruto", img:"https://i.ytimg.com/vi/COlZbYPqpmw/maxresdefault.jpg"},
     ];
-
+function card(e){
+dispach(CardQoshish(e))
+}
     return (
         <>
             <div style={{
@@ -62,7 +67,7 @@ function Home() {
                     </div>
                     <button className='text-[#f29824] border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>Barchasi ›</button>
                 </div>
-                <div className='div-3 pb-3'>
+                <div className='div-3 mb-10'>
                     {cardItems.map((e, index) => (
                         <div key={e.id} style={{
                             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${e.img})`,
@@ -74,7 +79,7 @@ function Home() {
                             <div className='flex justify-between items-center rounded-[10px] p-1'>
                                 <span className='bg-[#f29824] text-white py-1 px-2 rounded-[5px] text-[14px] font-[600]'>{e.year}</span>
                                 <span className='bg-[#0303032d] text-white py-1 px-2 rounded-[5px] text-[14px] font-[600]'>{e.episodeCount}-{e.releasedEpisodes}</span>
-                                <span className='text-[#fff]'> <svg
+                                <span onClick={()=>{card(e)}} className='text-[#fff]'> <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"
                                     fill="none"
