@@ -19,17 +19,18 @@ function Home() {
                     }
                     return prevSeconds + 1;
                 });
-            }, 1000);
+            }, 3000);
         }
         return () => clearInterval(interval); // Clear interval on component unmount or isActive change
     }, [isActive]);
 
     let anime = [
-        {name:"Naruto", img:"https://avatars.dzeninfra.ru/get-zen_doc/4219899/pub_60709d1d6594337d818bf229_6070a108c64ef5217e8b7bfa/scale_1200"},
-        {name:"Naruto", img:"https://a.allegroimg.com/original/1178af/ca79e9624949b36c4aa2d73f65f7"},
-        {name:"Naruto", img:"https://www.amazingame.ru/upload/iblock/d14/fe5mc9szblbr87ik7ome8w61det3jbk1/202108120855033.jpg"},
-        {name:"Naruto", img:"https://i.ytimg.com/vi/COlZbYPqpmw/maxresdefault.jpg"},
+        {name:"       Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem dolorum dignissimos quis voluptate corrupti praesentium nemo repudiandae nulla fugit! Dolorem quo aliquam at placeat.        ", img:"https://avatars.dzeninfra.ru/get-zen_doc/4219899/pub_60709d1d6594337d818bf229_6070a108c64ef5217e8b7bfa/scale_1200"},
+        {name:"            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis dolore aut quasi quod cupiditate enim, ipsa maiores aspernatur esse reiciendis, odio earum aperiam sit. Exercitationem asperiores voluptas quo eum?        ", img:"https://steamuserimages-a.akamaihd.net/ugc/933832491643875868/E153FD69DA1CBE49F265A44E9CA332E1F20EA20D/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true"},
+        {name:"       Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem dolorum dignissimos quis voluptate corrupti praesentium nemo repudiandae nulla fugit! Dolorem quo aliquam at placeat.        ", img:"https://i.pinimg.com/originals/01/ca/07/01ca07336d5cc1afa4b8876844a5381a.jpg"},
+        {name:"         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit cupiditate vitae rem repellendus omnis optio numquam assumenda dolorum sint placeat soluta voluptatem distinctio eum facere sapiente harum quasi, hic sequi?        ", img:"https://hentaiporns.net/wp-content/uploads/2017/07/1032323-02_04.jpg"},
     ];
+   
 function card(e){
 dispach(CardQoshish(e))
 }
@@ -44,16 +45,16 @@ dispach(CardQoshish(e))
                 <div className='max-w-[1280px] mx-auto div-1 '>
                     <div className=''>
                         <p className='text-[#f29824] text-[18px]'>Hamma Animelar</p>
-                        <h2 className='font-[600] mt-2 text-[50px] leading-[56px]'>Naruto Ajoyib Anime</h2>
-                        <p className='text-[20px] mt-4 leading-[22px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur dignissimos perferendis voluptatum nulla minima! Vero, vitae quae atque blanditiis nihil similique quaerat possimus iure non quo distinctio totam esse, nesciunt sequi repellat. Quas illum sequi et quae similique, maxime cumque natus velit tempora quisquam commodi saepe! Qui laudantium voluptatibus voluptatum, sunt reprehenderit at in nostrum officia repellendus porro animi minus?</p>
+                        <h2 className='font-[600] mt-2 text-[50px] leading-[56px]'>{cardItems[seconds].name}</h2>
+                        <p className='text-[20px] mt-4 leading-[22px]'>{anime[seconds].name}</p>
                         <div className='flex items-center gap-4 mt-7'>
-                            <span className='text-[#f29824] font-[800] text-[24px]'>2024</span>
+                            <span className='text-[#f29824] font-[800] text-[24px]'>{cardItems[seconds].year}</span>
                             <img className='h-10 ' src="   https://cdn-icons-png.flaticon.com/512/11607/11607499.png " alt="" />
                             <button className='bg-[#f29824] h-10 px-5 rounded-[20px] font-[700] '>KORISH</button>
                         </div>
                     </div>
                     <div className='flex justify-end'>
-                        <img className='w-[316px] h-[450px]' src="https://i.ebayimg.com/images/g/J9UAAOSwtFxb3iZc/s-l500.jpg" alt="" />
+                        <img className='w-[316px] h-[450px]' src={cardItems[seconds].img} alt="" />
                     </div>
                 </div>
             </div>
@@ -67,7 +68,7 @@ dispach(CardQoshish(e))
                     </div>
                     <button className='text-[#f29824] border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>Barchasi ›</button>
                 </div>
-                <div className='div-3 mb-10'>
+                <div className='div-3 pb-10'>
                     {cardItems.map((e, index) => (
                         <div key={e.id} style={{
                             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${e.img})`,
