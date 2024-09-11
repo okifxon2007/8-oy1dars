@@ -10,4 +10,11 @@
   display: grid;
   grid-template-columns: 40% 60%;
   margin: 0 auto;
+  
+}
+.div-3{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  justify-content: space-between;
+  gap: 20px;
 }

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+import { incrument } from "../redux/Card";
 
 function Input() {
   const [name, setName] = useState('');
@@ -11,7 +13,9 @@ function Input() {
   const [text, setText] = useState('');
   const [errors, setErrors] = useState({});
   const navigate = useNavigate();
-
+  const cardItems = useSelector((state) => state.counter);
+  const dispach=useDispatch();
+  console.log(cardItems);
   const validateForm = () => {
     const errors = {};
     if (!name.trim()) errors.name = 'Mahsulot nomini kiriting!';
@@ -38,6 +42,7 @@ function Input() {
       categori,
       text,
     };
+    dispach(incrument(data))
     navigate("/");
   };
 
