@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { CardQoshish } from '../redux/Product';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function Home() {
     const [seconds, setSeconds] = useState(0);
     const [isActive, setIsActive] = useState(true);
     const cardItems = useSelector((state) => state.counter);
     const cardItems2 = useSelector((state) => state.product);
+    
     console.log(cardItems2);
     let dispach=useDispatch()
     useEffect(() => {
@@ -32,6 +34,7 @@ function Home() {
     ];
    
 function card(e){
+    toast.success("Animeni mofaqiyatli carzincaga qoshtinggiz!");
 dispach(CardQoshish(e))
 }
     return (
@@ -99,6 +102,7 @@ dispach(CardQoshish(e))
                         </div>
                     ))}
                 </div>
+                <ToastContainer/>
             </div>
         </>
     );

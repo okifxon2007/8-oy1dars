@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { incrument } from "../redux/Card";
+import { toast } from "react-toastify";
 
 function Input() {
   const [name, setName] = useState("");
@@ -42,6 +43,7 @@ function Input() {
       categori,
       text,
     };
+    toast.success("Mofaqiyatli Anime card yaratinggiz!");
     dispach(incrument(data));
     navigate("/");
   };
