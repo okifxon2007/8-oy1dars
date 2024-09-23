@@ -14,7 +14,7 @@ function Praduct() {
     return (
         <>
             <div className='max-w-[1280px] mx-auto border-b-[1px]'>
-                <h2 className='text-[30px]'>Sevimli Animelarim</h2>
+                <h2 className='text-[30px]'>Tanlangan maxsulotlar </h2>
             </div>
             <div className='div-3 pb-10 pt-3'>
                 {cardItems2.map((e, index) => (

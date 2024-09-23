@@ -17,24 +17,24 @@ function Home() {
             interval = setInterval(() => {
                 setSeconds((prevSeconds) => {
                     if (prevSeconds === 3) {
-                        return 0; // Reset to 0 after reaching 3
+                        return 0; 
                     }
                     return prevSeconds + 1;
                 });
             }, 3000);
         }
-        return () => clearInterval(interval); // Clear interval on component unmount or isActive change
+        return () => clearInterval(interval); 
     }, [isActive]);
 
     let anime = [
-        {name:"       Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem dolorum dignissimos quis voluptate corrupti praesentium nemo repudiandae nulla fugit! Dolorem quo aliquam at placeat.        ", img:"https://avatars.dzeninfra.ru/get-zen_doc/4219899/pub_60709d1d6594337d818bf229_6070a108c64ef5217e8b7bfa/scale_1200"},
-        {name:"            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis dolore aut quasi quod cupiditate enim, ipsa maiores aspernatur esse reiciendis, odio earum aperiam sit. Exercitationem asperiores voluptas quo eum?        ", img:"https://steamuserimages-a.akamaihd.net/ugc/933832491643875868/E153FD69DA1CBE49F265A44E9CA332E1F20EA20D/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true"},
-        {name:"       Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem dolorum dignissimos quis voluptate corrupti praesentium nemo repudiandae nulla fugit! Dolorem quo aliquam at placeat.        ", img:"https://i.pinimg.com/originals/01/ca/07/01ca07336d5cc1afa4b8876844a5381a.jpg"},
-        {name:"         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit cupiditate vitae rem repellendus omnis optio numquam assumenda dolorum sint placeat soluta voluptatem distinctio eum facere sapiente harum quasi, hic sequi?        ", img:"https://hentaiporns.net/wp-content/uploads/2017/07/1032323-02_04.jpg"},
+        {name:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis dolore aut quasi quod cupiditate enim, ipsa maiores aspernatur esse reiciendis, odio earum aperiam sit. Exercitationem asperiores voluptas quo eum? ", img:"https://picsum.photos/200"},
+        {name:"            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis dolore aut quasi quod cupiditate enim, ipsa maiores aspernatur esse reiciendis, odio earum aperiam sit. Exercitationem asperiores voluptas quo eum?        ", img:"https://picsum.photos/200/300"},
+        {name:"       Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem dolorum dignissimos quis voluptate corrupti praesentium nemo repudiandae nulla fugit! Dolorem quo aliquam at placeat.        ", img:"https://picsum.photos/200/300?grayscale"},
+        {name:"         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit cupiditate vitae rem repellendus omnis optio numquam assumenda dolorum sint placeat soluta voluptatem distinctio eum facere sapiente harum quasi, hic sequi?        ", img:"https://picsum.photos/seed/picsum/200/300"},
     ];
    
 function card(e){
-    toast.success("Animeni mofaqiyatli carzincaga qoshtinggiz!");
+    toast.success("Maxsulot qoshildi");
 dispach(CardQoshish(e))
 }
     return (
@@ -47,13 +47,13 @@ dispach(CardQoshish(e))
             }} className='w-full h-[100vh] flex flex-col justify-center items-center mt-[-10vh] text-white'>
                 <div className='max-w-[1280px] mx-auto div-1 '>
                     <div className=''>
-                        <p className='text-[#f29824] text-[18px]'>Hamma Animelar</p>
+                        <p className='text-[#f29824] text-[18px]'>Magazin</p>
                         <h2 className='font-[600] mt-2 text-[50px] leading-[56px]'>{cardItems[seconds].name}</h2>
                         <p className='text-[20px] mt-4 leading-[22px]'>{anime[seconds].name}</p>
                         <div className='flex items-center gap-4 mt-7'>
                             <span className='text-[#f29824] font-[800] text-[24px]'>{cardItems[seconds].year}</span>
                             <img className='h-10 ' src="   https://cdn-icons-png.flaticon.com/512/11607/11607499.png " alt="" />
-                            <button className='bg-[#f29824] h-10 px-5 rounded-[20px] font-[700] '>KORISH</button>
+                            <button className='bg-[#f29824] h-10 px-5 rounded-[20px] font-[700] '>Magazin1ga otish</button>
                         </div>
                     </div>
                     <div className='flex justify-end'>
@@ -64,10 +64,10 @@ dispach(CardQoshish(e))
             <div className='max-w-[1280px] mx-auto'>
                 <div className='flex justify-between items-center py-16'>
                     <div className='text-[#f29824] flex flex-wrap gap-4'>
-                        <button className='border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>Hamma Animelar</button>
-                        <button className='border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>Yakunlangan Animelar</button>
-                        <button className='border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>Anime Filim</button>
-                        <button className='border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>Anime Content</button>
+                        <button className='border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>Hamma magazinlar</button>
+                        <button className='border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>Yakunlangan maxsulotlar</button>
+                        <button className='border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>yangi magazin</button>
+                        <button className='border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>...</button>
                     </div>
                     <button className='text-[#f29824] border-[1px] py-1 px-3 border-[#f29824] rounded-[5px] font-[600] text-[18px] hover:bg-[#f29824] hover:text-white'>Barchasi ›</button>
                 </div>
@@ -81,8 +81,8 @@ dispach(CardQoshish(e))
                             backgroundPositionY: "100%",
                         }} className='max-w-[316px] h-[450px] flex flex-col justify-between'>
                             <div className='flex justify-between items-center rounded-[10px] p-1'>
-                                <span className='bg-[#f29824] text-white py-1 px-2 rounded-[5px] text-[14px] font-[600]'>{e.year}</span>
-                                <span className='bg-[#0303032d] text-white py-1 px-2 rounded-[5px] text-[14px] font-[600]'>{e.episodeCount}-{e.releasedEpisodes}</span>
+                                <span className='bg-[#f29824] text-white py-1 px-2 rounded-[5px] text-[14px] font-[600]'>2024</span>
+                                <span className='bg-[#0303032d] text-white py-1 px-2 rounded-[5px] text-[14px] font-[600]'>magazin1-magazin2</span>
                                 <span onClick={()=>{card(e)}} className='text-[#fff]'> <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"

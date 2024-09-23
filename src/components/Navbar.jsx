@@ -25,15 +25,15 @@ function card(){
 }
   return (
     <div>
-      <div className="navbar text-[#f29824] max-w-[1280px] mx-auto">
+      <div className="navbar text-[#ffffff] max-w-[1280px] mx-auto">
         <div className="flex-1">
-          <NavLink to="/" className="btn btn-ghost text-xl">AniLaver</NavLink>
+          <NavLink to="/" className="btn btn-ghost text-xl">Magazine</NavLink>
         </div>
         <div className="flex justify-end items-center gap-2 border-b-[1px] w-[30%] pb-2">
           <div className="dropdown dropdown-end">
             <NavLink to="/card">
               <button className='btn btn-ghost btn-circle'>
-                <img className='w-5' src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="" />
+                <img className='w-5' src="" alt="" />
               </button>
             </NavLink>
           </div>
@@ -84,8 +84,8 @@ function card(){
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
                 <img
-                  alt="Tailwind CSS Navbar component"
-                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                  alt="img"
+                  src="https://picsum.photos/200"
                 />
               </div>
             </div>

@@ -19,13 +19,13 @@ function Input() {
   console.log(cardItems);
   const validateForm = () => {
     const errors = {};
-    if (!name.trim()) errors.name = "Anime nomini kiriting!";
-    if (!img.trim()) errors.img = "Rasm URL ni kiriting!";
+    if (!name.trim()) errors.name = "Maxsulot nomi!";
+    if (!img.trim()) errors.img = "Rasm !";
     if (!narh.trim()) errors.narh = "Qisimni kiriting!";
-    if (!chegirma.trim()) errors.chegirma = "Qancha Qisim bor kiriting!";
-    if (!Brand.trim()) errors.Brand = "Yilni kiriting!";
+    if (!chegirma.trim()) errors.chegirma = "Qancha maxsulot!";
+    if (!Brand.trim()) errors.Brand = "Yilini kiriting!";
     if (!categori) errors.categori = "Kategoriyani tanlang!";
-    if (!text.trim()) errors.text = "Anime haqida to'liq ma'lumot kiriting!";
+    if (!text.trim()) errors.text = "maxsulot haqida malumot!";
     setErrors(errors);
     return Object.keys(errors).length === 0;
   };
@@ -43,7 +43,7 @@ function Input() {
       categori,
       text,
     };
-    toast.success("Mofaqiyatli Anime card yaratinggiz!");
+    toast.success("Mofaqiyatli maxsulot card yaratinggiz!");
     dispach(incrument(data));
     navigate("/");
   };
@@ -125,10 +125,10 @@ function Input() {
       </div>
       <div className="  flex items-center justify-center">
         <div className="bg-[#fff] w-[70%] border-[1px] border-[#000]  rounded-[5px] p-[30px]">
-          <h2 className="font-[700] text-[23px]">Anime yaratish</h2>
+          <h2 className="font-[700] text-[23px]">magazin yaratish</h2>
           <div className="flex flex-col gap-[5px] my-auto mt-3">
             <label className="flex flex-col border-[#0901ff] border-solid border-b-[1px] font-[600]">
-              Anime: Nomi
+              magazin: Nomi
               <div className="flex justify-between items-center">
                 <input
                   onChange={(e) => setName(e.target.value)}

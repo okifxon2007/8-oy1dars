@@ -1,184 +1,164 @@
 [
     {
       "id": 1,
-      "img": "https://i01.fotocdn.net/s113/f243694679b44cfa/public_pin_l/2540313629.jpg",
-      "name": "Naruto",
+      "img": "https://picsum.photos/200",
+      "name": "magazin1",
       "episodeCount": 220,
       "releasedEpisodes": 220,
       "year": 2002
     },
     {
       "id": 2,
-      "img": "https://i.pinimg.com/originals/21/76/c3/2176c36d71598fcace184cf1f66a57ca.jpg",
-      "name": "Naruto Shippuden",
+      "img": "https://picsum.photos/200",
+      "name": "magazin1",
       "episodeCount": 500,
       "releasedEpisodes": 500,
       "year": 2007
     },
     {
       "id": 3,
-      "img": "https://sun9-22.userapi.com/impg/x_kcCq3RmyOkJsYxbHNGfHafNzHYAVKb8DUXAw/gVWueYP0Rl4.jpg?size=1000x1400&quality=96&sign=3ef31e87d8fdcd37f8efd7ecf42684e1&c_uniq_tag=nNCzkf_cecmPqqQK21u_D60NFaV8eAFmdYIPI8QqELI&type=album",
-      "name": "One Piece",
+      "img": "https://picsum.photos/200",      
+      "name": "magazin1",
       "episodeCount": 1071,
       "releasedEpisodes": 1071,
       "year": 1999
     },
     {
       "id": 4,
-      "img": "https://i.pinimg.com/originals/47/b6/5b/47b65bece4e7fd48d7c6a2044262e07a.png",
-      "name": "Attack on Titan",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 87,
       "releasedEpisodes": 87,
       "year": 2013
     },
     {
       "id": 5,
-      "img": "https://avatars.mds.yandex.net/i?id=e22ee0580e805c82a2efd27f4354c3a2_l-5364211-images-thumbs&ref=rim&n=13&w=750&h=1334",
-      "name": "My Hero Academia",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 138,
       "releasedEpisodes": 138,
       "year": 2016
     },
     {
       "id": 6,
-      "img": "https://example.com/demonslayer.jpg",
-      "name": "Demon Slayer",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 44,
       "releasedEpisodes": 44,
       "year": 2019
     },
     {
       "id": 7,
-      "img": "https://i.pinimg.com/originals/ed/05/66/ed056607ac19809003879d1fc9a15ec8.jpg",
-      "name": "Bleach",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 366,
       "releasedEpisodes": 366,
       "year": 2004
     },
     {
       "id": 8,
-      "img": "https://i.pinimg.com/736x/08/1f/3e/081f3ecf562a7f7f96bcaa6cfba44fd7.jpg",
-      "name": "Dragon Ball Z",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 291,
       "releasedEpisodes": 291,
       "year": 1989
     },
     {
       "id": 9,
-      "img": "https://sun9-46.userapi.com/impg/K7ythDbsN1BhUnaMcwWHd7DNy5rudNTwRbM--w/eK22cOg9rY0.jpg?size=200x283&quality=96&sign=d6f2edc263d14f58c7902543d802741e&type=album",
-      "name": "One Punch Man",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 24,
       "releasedEpisodes": 24,
       "year": 2015
     },
     {
       "id": 10,
-      "img": "https://i.pinimg.com/236x/89/07/4a/89074a408827038332f5190ad5a2739a.jpg?nii=t",
-      "name": "Black Clover",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 170,
       "releasedEpisodes": 170,
       "year": 2017
     },
     {
       "id": 11,
-      "img": "https://i.pinimg.com/736x/9f/35/e8/9f35e826b3b62eb5fc465d50ca6cb1b8--anime-art-korean.jpg",
-      "name": "Hunter x Hunter",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 148,
       "releasedEpisodes": 148,
       "year": 1999
     },
     {
       "id": 12,
-      "img": "https://cdn1.ozone.ru/s3/multimedia-0/6392199732.jpg",
-      "name": "Fullmetal Alchemist: Brotherhood",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 64,
       "releasedEpisodes": 64,
       "year": 2009
     },
     {
       "id": 13,
-      "img": "https://www.pulsar.ua/files/img_products/full_______________-____________-________-________-______-________________-____________-1.jpg",
-      "name": "Fairy Tail",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 328,
       "releasedEpisodes": 328,
       "year": 2009
     },
     {
       "id": 14,
-      "img": "https://fandomania.ru/pictures/product/big/33215_big.jpg",
-      "name": "JoJo's Bizarre Adventure",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 152,
       "releasedEpisodes": 152,
       "year": 2012
     },
     {
       "id": 15,
-      "img": "https://fandomania.ru/pictures/product/big/28479_big.jpg",
-      "name": "Death Note",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 37,
       "releasedEpisodes": 37,
       "year": 2006
     },
     {
       "id": 16,
-      "img": "https://www.pulsar.ua/files/img_products/______________-____________-________-________-______-________________-____________-4.jpg",
-      "name": "Re:Zero - Starting Life in Another World",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 50,
       "releasedEpisodes": 50,
       "year": 2016
     },
     {
       "id": 17,
-      "img": "https://i.pinimg.com/736x/67/23/4d/67234d129a046c085736b27d21a14c80.jpg",
-      "name": "Tokyo Ghoul",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 48,
       "releasedEpisodes": 48,
       "year": 2014
     },
     {
       "id": 18,
-      "img": "https://cdn1.ozone.ru/s3/multimedia-d/6367922569.jpg",
-      "name": "The Seven Deadly Sins",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 100,
       "releasedEpisodes": 100,
       "year": 2014
     },
     {
       "id": 19,
-      "img": "https://i.pinimg.com/originals/96/17/f7/9617f79d55f063ba9231d3cb1b7697c8.jpg",
-      "name": "Overlord",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 52,
       "releasedEpisodes": 52,
       "year": 2015
     },
     {
       "id": 20,
-      "img": "https://i.pinimg.com/originals/78/5e/9d/785e9d40ff53cdd249c0263178d89add.jpg",
-      "name": "Sword Art Online",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 96,
       "releasedEpisodes": 96,
       "year": 2012
     },
     {
       "id": 21,
-      "img": "https://i.pinimg.com/originals/51/72/28/517228e9e1e684a5912a6f1aae8d734f.jpg",
-      "name": "Nanatsu no Taizai",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 96,
       "releasedEpisodes": 96,
       "year": 2014
     },
     {
       "id": 22,
-      "img": "https://sun9-41.userapi.com/impg/VL-zf2n0IGLLlEZd9RQWaRVcoSgwSiSJxAbdnQ/FRfL2XECe-g.jpg?size=736x1307&quality=95&sign=21186697da265c8d33697e01a5736aa4&c_uniq_tag=Ob9MxLGkiy2cFQkkSz2kJIGwu0Dh7ANqh9FYfGhzIvc&type=album",
-      "name": "Jujutsu Kaisen",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 24,
       "releasedEpisodes": 24,
       "year": 2020
     },
     {
       "id": 23,
-      "img": "https://trueposters.ru/pictures/product/big/5707_big.jpg",
-      "name": "Vinland Saga",
+"img": "https://picsum.photos/200",      "name": "magazin1",
       "episodeCount": 48,
       "releasedEpisodes": 48,
       "year": 2019

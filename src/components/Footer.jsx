@@ -9,11 +9,11 @@ function Footer() {
       <div
         className="flex flex-col min-[830px]:flex-row items-center justify-between gap-6 pb-10 border-b-2 border-gray-200">
        <NavLink className="text-[30px]">
-        AniLaver
+        Magazine
        </NavLink>
         <ul className="flex flex-col sm:flex-row items-center gap-5 sm:gap-12">
           <li><a 
-              className="text-lg font-normal  transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Pagedone</a>
+              className="text-lg font-normal  transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">Home</a>
           </li>
           <li><a 
               className="text-lg font-normal  transition-all duration-300 hover:text-indigo-600 focus-within:text-indigo-600 focus-within:outline-0">products</a>
